@@ -4,6 +4,43 @@ MinerU Zotero Reader is a Codex skill for reading Zotero PDF attachments through
 
 ![MinerU Zotero Reader workflow](docs/images/mineru-zotero-reader-workflow.png)
 
+## Example Gallery
+
+The skill adds a Zotero one-click reading menu and writes generated Markdown notes back as Zotero linked attachments. A single PDF can produce quick-read, deep-read, and writing-level reading notes for different research needs.
+
+<p>
+  <img src="docs/images/example-zotero-linked-notes.png" alt="Generated notes attached in Zotero" width="48%">
+  <img src="docs/images/example-zotero-one-click-menu.png" alt="Zotero one-click reading menu" width="34%">
+</p>
+
+### Quick Read
+
+Quick read is for deciding whether a paper is worth further reading. It gives a compact conclusion, relevance judgment, one-sentence summary, research problem, and main method.
+
+<img src="docs/images/example-quickread-note.png" alt="Quick-read note example" width="50%">
+
+### Deep Read
+
+Deep read is for understanding the paper's argument, method route, evidence, and key figures or tables. It turns the paper into a structured research note rather than a loose abstract.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/example-deepread-summary.png" alt="Deep-read summary example"></td>
+    <td width="50%"><img src="docs/images/example-deepread-figures.png" alt="Deep-read figure and table interpretation example"></td>
+  </tr>
+</table>
+
+### Writing-Level Read
+
+Writing-level read focuses on reusable writing logic. It breaks down article structure, evidence placement, argument flow, and sentence patterns that can be adapted without copying.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/images/example-writing-read-structure.png" alt="Writing-level structure analysis example"></td>
+    <td width="50%"><img src="docs/images/example-writing-read-patterns.png" alt="Writing-level reusable writing patterns example"></td>
+  </tr>
+</table>
+
 Important distinction: the Zotero Bridge XPI must be installed in Zotero. On the Codex side, users need Codex CLI plus the `mineru-zotero-reader` skill.
 
 ## Installation Guide
