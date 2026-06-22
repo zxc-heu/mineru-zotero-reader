@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Codex Zotero Bridge",
+  "version": "0.3.16",
+  "description": "Local bridge for Codex to read Zotero PDFs and attach linked Markdown files to existing Zotero items.",
+  "homepage_url": "https://github.com/zxc-heu/mineru-zotero-reader",
+  "author": "zxc",
+  "icons": {
+    "48": "content/icons/bridge.svg",
+    "96": "content/icons/bridge.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "codexzoterobridge@polygon.org",
+      "update_url": "https://github.com/zxc-heu/mineru-zotero-reader/releases/latest/download/update.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "9.*"
+    }
+  }
+}

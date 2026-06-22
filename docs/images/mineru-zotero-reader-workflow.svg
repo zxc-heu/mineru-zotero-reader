@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="360" viewBox="0 0 1320 360" role="img" aria-labelledby="title desc">
+  <title id="title">MinerU Zotero Reader workflow</title>
+  <desc id="desc">Zotero PDF flows through the Zotero Bridge XPI, Codex CLI, mineru-zotero-reader skill, MinerU API, Markdown note, and returns to Zotero as a linked attachment.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#3f5f76" />
+    </marker>
+    <style>
+      .bg { fill: #f7fafc; }
+      .title { font: 700 28px Arial, sans-serif; fill: #17212b; }
+      .subtitle { font: 16px Arial, sans-serif; fill: #5b6975; }
+      .box { fill: #ffffff; stroke: #c8d4df; stroke-width: 2; rx: 10; }
+      .box-strong { fill: #eef7f2; stroke: #66a880; stroke-width: 2; rx: 10; }
+      .box-api { fill: #fff7ea; stroke: #d99a3d; stroke-width: 2; rx: 10; }
+      .label { font: 700 18px Arial, sans-serif; fill: #17212b; }
+      .note { font: 14px Arial, sans-serif; fill: #5b6975; }
+      .arrow { stroke: #3f5f76; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .return { stroke: #5c7a66; stroke-width: 3; fill: none; stroke-dasharray: 8 7; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1320" height="360" rx="18"/>
+  <text class="title" x="48" y="54">MinerU Zotero Reader: end-to-end reading workflow</text>
+  <text class="subtitle" x="48" y="82">The Zotero add-on launches Codex CLI; Codex uses the skill and MinerU API, then the add-on links the Markdown note back to Zotero.</text>
+
+  <rect class="box" x="48" y="132" width="150" height="86"/>
+  <text class="label" x="76" y="166">Zotero PDF</text>
+  <text class="note" x="76" y="190">selected item</text>
+
+  <path class="arrow" d="M205 175 H255"/>
+
+  <rect class="box-strong" x="262" y="132" width="178" height="86"/>
+  <text class="label" x="292" y="160">Zotero Bridge</text>
+  <text class="label" x="322" y="184">XPI</text>
+  <text class="note" x="292" y="206">right-click menu</text>
+
+  <path class="arrow" d="M448 175 H498"/>
+
+  <rect class="box" x="505" y="132" width="145" height="86"/>
+  <text class="label" x="536" y="166">Codex CLI</text>
+  <text class="note" x="536" y="190">logged in</text>
+
+  <path class="arrow" d="M658 175 H708"/>
+
+  <rect class="box" x="715" y="132" width="218" height="86"/>
+  <text class="label" x="746" y="160">mineru-zotero-</text>
+  <text class="label" x="786" y="184">reader skill</text>
+  <text class="note" x="746" y="206">rules + scripts</text>
+
+  <path class="arrow" d="M941 175 H991"/>
+
+  <rect class="box-api" x="998" y="132" width="145" height="86"/>
+  <text class="label" x="1032" y="166">MinerU API</text>
+  <text class="note" x="1032" y="190">PDF to MD</text>
+
+  <path class="arrow" d="M1151 175 H1201"/>
+
+  <rect class="box" x="1208" y="132" width="144" height="86"/>
+  <text class="label" x="1234" y="166">Markdown</text>
+  <text class="note" x="1234" y="190">reading note</text>
+
+  <path class="return" d="M1280 225 C1240 300, 880 318, 615 300 C420 287, 285 260, 180 218"/>
+  <text class="note" x="520" y="330">linked attachment back to Zotero</text>
+</svg>
